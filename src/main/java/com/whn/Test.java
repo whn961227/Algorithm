@@ -1,4 +1,4 @@
 package com.whn;
 
-public class Tets {
+public class Test {
 }
