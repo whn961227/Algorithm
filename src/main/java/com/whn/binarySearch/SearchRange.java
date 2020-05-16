@@ -55,10 +55,4 @@ public class SearchRange {
         return right;
     }
 
-    public static void main(String[] args) {
-        for (int i : new SearchRange().searchRange(new int[]{5, 7, 7, 8, 8, 10}, 8)) {
-            System.out.print(i + " ");
-        }
-    }
-
 }
