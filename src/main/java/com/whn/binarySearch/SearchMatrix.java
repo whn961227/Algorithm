@@ -28,8 +28,6 @@ public class SearchMatrix {
         for (int i = 0; i < colLen; i++) {
             if (matrix[i][0] > target)
                 break;
-            if (matrix[i][rowLen - 1] < target)
-                continue;
             if (binarySearch(matrix[i], target))
                 return true;
         }
