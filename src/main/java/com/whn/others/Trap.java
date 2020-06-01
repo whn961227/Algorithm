@@ -34,8 +34,4 @@ public class Trap {
         }
         return ans;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Trap().trap(new int[]{2, 0, 2}));
-    }
 }
