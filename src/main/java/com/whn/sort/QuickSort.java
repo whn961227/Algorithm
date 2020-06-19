@@ -8,8 +8,8 @@ public class QuickSort {
 
         if (left < right) {
             temp = nums[left];
-            while (i < j) {
-                while (j > i && nums[j] > temp) j--;
+            while (i != j) {
+                while (j > i && nums[j] >= temp) j--;
                 if (i < j) {
                     nums[i] = nums[j];
                     i++;
